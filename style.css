@@ -51,15 +51,12 @@ body {
 .section-title {
   letter-spacing: 0.15em;
 }
-.shows-list {
-  max-width: 900px;
+
+/* Gothic headings (MUSIC, About, Upcoming Shows) */
+.font-blackletter {
+  /* Old English Text MT comes with Windows/Office; the Google font is the fallback */
+  font-family: "Old English Text MT", "UnifrakturMaguntia", serif;
 }
-.cover-placeholder {
-  aspect-ratio: 1 / 1;
-}
-.cover-1 { background-color: #3a4a6b; }
-.cover-2 { background-color: #5b6a8c; }
-.cover-3 { background-color: #22305a; }
 
 /* Footer */
 .footer-links {
